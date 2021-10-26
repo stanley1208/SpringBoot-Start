@@ -33,8 +33,8 @@ public class Create {
 		m1.setPrice(100);
 		
 		MenuItem m2=new MenuItem();
-		m1.setName("B");
-		m1.setPrice(50);
+		m2.setName("B");
+		m2.setPrice(50);
 		
 		//設置關聯關係
 		mg.getItems().add(m1);

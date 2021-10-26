@@ -23,7 +23,7 @@ public class Query {
 		//@ManyToOne預設是fetch=FetchType.EAGER
 		//所以SQL會進行left outer join 來聯集其他資料
 		//@ManyToOne手動改成fetch=FetchType.LAZY
-		//就不會進行聯查詢
+		//就不會進行聯集查詢
 		//後來的程式有調用到一的一方的資料會自動生成SQL指令查詢
 		Order order=orderRepository.findById(1L).get();
 		System.out.println(order.getName());

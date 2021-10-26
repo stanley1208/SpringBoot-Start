@@ -35,7 +35,7 @@ public class Create {
 		v2.setName("BNT");
 		v2.setCount(2);
 		Vaccine v3=new Vaccine();
-		v1.setName("PJ");
+		v3.setName("PJ");
 		
 		//設置關聯關系
 		infect.getVaccines().add(v1);

@@ -23,8 +23,8 @@ public class Update {
 		//假設我想要修改id=1的訂單名稱與其客戶年齡
 		Order order=orderRepository.findById(1L).get();
 		Customer customer=order.getCustomer();
-		order.setName("A-1");
-		customer.setAge(20);
+		order.setName("AA-11");
+		customer.setAge(100);
 		//進行資料保存
 		//orderRepository.save(order);
 		//customerRepository.save(customer);
